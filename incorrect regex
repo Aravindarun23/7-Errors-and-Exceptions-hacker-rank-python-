@@ -1,0 +1,24 @@
+Sample Input
+
+2
+.*\+
+.*+
+
+Sample Output
+
+True
+False
+
+
+
+
+---------------------ANSWER--------------------------
+
+
+import re
+for i in range(int(input())):
+    try:
+        v=re.compile(input())
+        print("True")
+    except:
+        print("False")
